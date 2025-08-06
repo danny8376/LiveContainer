@@ -44,7 +44,7 @@
 			<string>com.kdt.livecontainer.urlscheme</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>livecontainer</string>
+				<string>clivecontainer</string>
 			</array>
 		</dict>
 	</array>
