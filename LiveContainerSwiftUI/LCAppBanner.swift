@@ -371,9 +371,9 @@ struct LCAppBanner : View {
     
     func copyLaunchUrl() {
         if let fn = model.uiSelectedContainer?.folderName {
-            UIPasteboard.general.string = "livecontainer://livecontainer-launch?bundle-name=\(appInfo.relativeBundlePath!)&container-folder-name=\(fn)"
+            UIPasteboard.general.string = "clivecontainer://livecontainer-launch?bundle-name=\(appInfo.relativeBundlePath!)&container-folder-name=\(fn)"
         } else {
-            UIPasteboard.general.string = "livecontainer://livecontainer-launch?bundle-name=\(appInfo.relativeBundlePath!)"
+            UIPasteboard.general.string = "clivecontainer://livecontainer-launch?bundle-name=\(appInfo.relativeBundlePath!)"
         }
         
     }
