@@ -218,9 +218,9 @@ uint32_t dyld_get_sdk_version(const struct mach_header* mh);
 - (NSDictionary *)generateWebClipConfigWithContainerId:(NSString*)containerId {
     NSString* appClipUrl;
     if(containerId) {
-        appClipUrl = [NSString stringWithFormat:@"livecontainer://livecontainer-launch?bundle-name=%@&container-folder-name=%@", self.bundlePath.lastPathComponent, containerId];
+        appClipUrl = [NSString stringWithFormat:@"clivecontainer://livecontainer-launch?bundle-name=%@&container-folder-name=%@", self.bundlePath.lastPathComponent, containerId];
     } else {
-        appClipUrl = [NSString stringWithFormat:@"livecontainer://livecontainer-launch?bundle-name=%@", self.bundlePath.lastPathComponent];
+        appClipUrl = [NSString stringWithFormat:@"clivecontainer://livecontainer-launch?bundle-name=%@", self.bundlePath.lastPathComponent];
     }
     
     NSDictionary *payload = @{
