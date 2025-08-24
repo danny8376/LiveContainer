@@ -5,7 +5,7 @@
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDisplayName</key>
-	<string>CLiveContainer</string>
+	<string>DLiveContainer</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -44,7 +44,7 @@
 			<string>com.kdt.livecontainer.urlscheme</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>clivecontainer</string>
+				<string>dlivecontainer</string>
 			</array>
 		</dict>
 	</array>

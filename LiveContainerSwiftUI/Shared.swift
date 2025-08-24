@@ -94,7 +94,7 @@ class SharedModel: ObservableObject {
     public static let keychainAccessGroupCount = 128
     
     func updateMultiLCStatus() {
-        if LCUtils.appUrlScheme()?.lowercased() != "clivecontainer" {
+        if LCUtils.appUrlScheme()?.lowercased() != "dlivecontainer" {
             multiLCStatus = 2
         } else if UIApplication.shared.canOpenURL(URL(string: "livecontainer2://")!) {
             multiLCStatus = 1
